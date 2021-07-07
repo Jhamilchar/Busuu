@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    height: 63.7vh;
+    background-color: #116EEE;
+    display: flex;
+    flex-direction: column;
+}
+    .space-between{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        .duo-row{
+            display: flex;
+            flex-direction: row;
+        }
+            .image-busuu{
+                width: 150px;
+                height: 87px;
+                padding-top: 6px;
+                padding-left: 18px;
+                padding-right: 0px;
+            }
+            .mini-text{
+                padding-top: 24px;
+                color: #FFFFFF;
+                font-weight: lighter;
+                font-size: 22px;
+                letter-spacing: 1px;
+                font-family: Nista, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+            .border-special{
+                padding-top: 2.1%;
+                padding-right: 3%;
+            }
+                .precios{
+                    border-radius:2rem;
+                    min-height: 28px;
+                    max-width: 340px;
+                    padding: 8px 53px;
+                    background-color: #FFFFFF;
+                    text-decoration: none;
+                    color: #116EEE;
+                }
+                .precios:hover{
+                    background-color: transparent;
+                    transition:.3s;
+                    border: solid #FFFFFF;
+                }
+    .duo-row2{
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-between;                  
+    }
+        .duo-row2_alltext{
+            display: flex;
+            flex-direction: column;
+            padding-left: 2.7%;
+            padding-right: 2.1%;
+            padding-top: 2%;
+        }
+            h1{
+                color: #FFFFFF;
+                font-family: Nista, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 800;
+                font-size: 43px;
+                line-height: 60px;
+            }
+            .descuento{
+                color: #FFFFFF;
+                font-family: Nista, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: lighter;
+                font-size: 20px;
+                line-height: 31px;
+                padding-top: 3%;
+                padding-bottom: 4.7%;
+            }
+                .premium{
+                    border-bottom: solid #41F1A8 5px;
+                }
+            .reserva{
+                border-radius: 2rem;
+                min-height: 28px;
+                max-width: 340px;
+                padding: 17px 17px;
+                background-color: #41F1A8;
+                color:black;
+                font-size: 20px;
+                text-align: center;
+                text-decoration: none;
+            }
+        .duo-row2_image{
+            justify-content: right;
+            width: 100%;
+        }
+            .girl-index{
+                padding-top: 21.5%;
+                width: 100%;
+            }
