@@ -97,11 +97,11 @@ header{
             }
         .duo-row2_image{
             justify-content: right;
-            width: 100%;
+            width: 600px;
         }
             .girl-index{
                 padding-top: 21.5%;
-                width: 100%;
+                width: 576px;
             }
 section{
     display: flex;
@@ -206,9 +206,112 @@ section{
             font-family: Nista , "Helvetica Neue", Helvetica, Arial, sans-serif;
             color: #000000;
             text-align: start;
+            padding-bottom: 3%;
+        }
+        .min-column-3 a{
+            border-radius: 1rem;
+            background-color: #116EEE;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: lighter;
+            padding: 2% 7.8rem;
+            color: #FFFFFF;
         }
         .group{
             width: 100%;
             height: 100%;
             padding-left: 5%;
         }
+    .back-blue{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        background-color: #116EEE;
+        padding: 0% 5%;
+        justify-content: space-around;
+        height: 17vh;
+    }
+        .back-blue h2{
+            color: #FFFFFF;
+            font-weight: lighter;
+            font-size: 27px;
+            line-height: 40px;
+            font-family: Nista , "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+            .back-blue h2 span{
+                font-weight: 800;
+            }
+        .back-blue a{
+            border-radius: 1.6rem;
+            background-color: #FFFFFF;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: lighter;
+            padding: 1.2% 6.8rem;
+            color: #116EEE;
+        }
+        .back-blue a:hover{
+            background-color: transparent;
+            transition:.3s;
+            border: solid #FFFFFF;
+            color: #FFFFFF;
+        }
+    .relleno{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+        .relleno h2{
+            padding-top: 5%;
+            font-size: 40px;
+            font-family: Nista , "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 68px;
+            font-weight: 800;
+            color: #000000;
+        }
+        .relleno p{
+            font-size: 23px;
+            font-family: Nista , "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 400px;
+            color: #000000;
+        }
+        .relleno div{
+            display: flex;
+            flex-direction:row;
+            padding-top: 3%;
+        }
+            .star{
+                width: 290px;
+                height: 40px;
+            }
+            div .numbers{
+                font-weight: bold;
+                font-size: 40px;
+            }
+        .dual{
+            width: 500px;
+            height: 100px;
+        }
+    .testimonio{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        padding-top: 6%;
+    }
+        .testimonio-1{
+            display: flex;
+            flex-direction: column;
+            border-radius: 1.6rem;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: lighter;
+            color: #000000;
+        }
+            .testimonio-1_row{
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;                
+            }
+        
