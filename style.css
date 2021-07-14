@@ -11,10 +11,8 @@ header{
     flex-direction: column;
 }
     .space-between{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0% 10vw;
+        display: grid;
+        grid-template-columns: 35fr 3fr;
     }
         .duo-row{
             display: flex;
@@ -24,7 +22,7 @@ header{
                 width: 150px;
                 height: 87px;
                 padding-top: 6px;
-                padding-left: 18px;
+                padding-left: 40px;
                 padding-right: 0px;
                 
             }
